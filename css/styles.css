@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.secao {
+  width: 100%;
+  padding: 120px 80px;
+}
+
+.banner {
+  background-image: url('../img/banner-topo.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.logo {
+  max-width: 250px;
+  color: #3C184E;
+}
+
+.logo .logo-titulo {
+  font-size: 35px;
+  margin: 0 0 5px;
+}
+
+.logo .logo-titulo img {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.logo p {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.banner-info {
+  max-width: 1024px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 70px auto 0;
+  background-color: #ffffffc4;
+  box-shadow: 0 8px 32px #1f26875e;
+}
+
+.banner-info h1 {
+  font-size: 60px;
+  color: #3C184E;
+  text-align: center;
+  font-weight: 800;
+  margin: 0 0 40px;
+}
+
+.banner-info p {
+  width: 200px;
+  padding: 10px 25px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #3C184E;
+  text-align: center;
+}
+
+.banner-info p a {
+  color: #fff;
+}
+
+.banner-info p a img {
+  width: 20px;
+}
+
+.secao h3 {
+  font-size: 36px;
+  color: #3C184E;
+  text-align: center;
+  margin: 0 0 45px;
+}
+
+.secao ul {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  color: #3C184E;
+}
+
+.secao ul li {
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.galeria, .galeria-marcas {
+  max-width: 800px;
+  margin: 0 auto 0;
+  text-align: center;
+}
+
+.galeria img {
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.faixa {
+  background-color: #3C184E;
+  text-align: center;
+}
+
+.faixa p {
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+
+.faixa a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.faixa a img {
+  width: 50px;
+  height: 50px;
+}
+
+.marcas .galeria-marcas .marca-img {
+  width: 148px;
+  height: 148px;
+  margin: 0 15px 0;
+}
+
+.localizacao {
+  text-align: center;
+}
+
+.localizacao p {
+  font-size: 20px;
+  color: #3C184E;
+  text-align: center;
+  margin: 0 0 45px;
+}
+
+.rodape {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #3C184E;
+}
+
+.rodape p {
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.rodape p a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.rodape p a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px){
+  .secao {
+    padding: 40px 0;
+  }
+  
+  .localizacao iframe {
+    width: 90%;
+  }
+  
+  .logo .logo-titulo {
+    font-size: 24px;
+  }
+  
+  .logo .logo-titulo img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .banner {
+    max-width: 100%;
+  }
+  
+  .banner-info h1 {
+    font-size: 40px;
+  }
+  
+  .secao h3 {
+    font-size: 30px;
+  }
+  
+  .secao ul li {
+    font-size: 16px;
+  }
+  
+  .faixa p {
+    font-size: 26px;
+  }
+  
+  .faixa a img {
+    width: 30px;
+    height: 30px;
+  }
+}
